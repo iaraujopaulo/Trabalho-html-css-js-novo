@@ -1,0 +1,4 @@
+/* Rodapé de direitos autorais */
+.direitos{position:fixed;bottom:16px;left:0;width:100%;text-align:center;font-size:.85rem;color:rgba(255,255,255,.75);z-index:1;pointer-events:none}
+footer .direitos{position:absolute;bottom:20px;color:#555}
+body[data-page="senha"] .direitos{color:#222;font-weight:600}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+
+<body data-page="login">
+    <div class="container">
+        <form id="form-login">
+            <h2>VOLTS MOTORS</h2>
+            <div class="input-field">
+                <input type="email" name="email" required/>
+                <label>Digite seu email</label>
+            </div>
+            <div class="input-field">
+                <input type="password" name="senha" required/>
+                <label>Digite sua senha</label>
+            </div>
+            <div class="forget">
+                <label for="Save-login">
+                    <input type="checkbox" id="Save-login" />
+                    <p>Me lembre o login</p>
+                </label>
+                <a href="forgot-password.html">Esqueceu a senha?</a>
+            </div>
+            <p id="msg" class="mensagem" role="status"></p>
+            <button type="submit">Entrar</button>
+            <div class="Create-account">
+                <p>Não tem uma conta? <a href="create-account.html">Crie sua conta</a></p>
+            </div>
+        </form>
+    </div>
+    <p class="direitos">&copy; 2026 VOLTS MOTORS. Todos os direitos reservados.</p>
+<script src="js/app.js"></script>
+</body>
+
+</html>

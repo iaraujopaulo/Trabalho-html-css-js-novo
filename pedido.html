@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paginas.css">
+    <title>VOLTS MOTORS</title>
+</head>
+<body data-page="pedido">
+    <header id="topo"></header>
+    <main>
+<h1>Minha área</h1>
+<p class="sub">Confira seus dados e escolha o carro do seu pedido.</p>
+<div class="grade">
+<section class="card"><h2>Dados do comprador</h2><dl id="dados" class="dados"></dl></section>
+<section class="card"><h2>Escolha do carro</h2>
+<form id="form-pedido" class="formulario">
+<label>Modelo<select id="modelo"><option>Volts E1</option><option>Volts X</option><option>Volts GT</option></select></label>
+<label>Ano<select id="ano"><option>2026</option><option>2027</option></select></label>
+<img id="prev-img" alt="Modelo escolhido" style="width:100%;border-radius:8px">
+<p id="prev-tipo" class="tag"></p>
+<p id="msg" class="mensagem" role="status"></p>
+<button type="submit" class="btn-cta">Salvar pedido</button>
+<p id="salvo" style="color:#bbb"></p>
+</form></section>
+</div>
+    </main>
+    <footer>&copy; 2026 VOLTS MOTORS. Todos os direitos reservados.</footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
